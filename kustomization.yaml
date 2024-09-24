@@ -4,6 +4,6 @@ metadata:
   name: arbitrary
 resources:
 - pod.yaml
-- encrypted-secret.yaml
+- secret.yaml
 transformers:
 - annotator.yaml
