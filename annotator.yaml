@@ -5,5 +5,4 @@ metadata:
   annotations:
     config.kubernetes.io/function: |
       exec:
-        #path: /usr/local/bin/esops
-        path: cat
+        path: /usr/local/bin/esops
