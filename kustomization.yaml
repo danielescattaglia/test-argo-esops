@@ -1,4 +1,5 @@
 resources:
 - secret.yaml
+- pod.yaml
 transformers:
 - annotator.yaml
