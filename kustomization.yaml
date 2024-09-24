@@ -3,7 +3,6 @@ kind: Kustomization
 metadata:
   name: arbitrary
 resources:
-- pod.yaml
 - secret.yaml
 transformers:
 - annotator.yaml
