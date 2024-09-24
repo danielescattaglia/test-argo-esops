@@ -1,0 +1,8 @@
+apiVersion: transformers.example.co/v1
+kind: ValueAnnotator
+metadata:
+  name: notImportantHere
+  annotations:
+    config.kubernetes.io/function: |
+      exec:
+        path: /usr/local/bin/esops
