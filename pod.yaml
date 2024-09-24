@@ -12,11 +12,11 @@ spec:
     - image: nginx
       name: nginx
       volumeMounts:
-        - name: encrypted-secret
+        - name: app-secret
           mountPath: "/mounted-secret"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
   volumes:
-    - name: encrypted-secret
+    - name: app-secret
       secret:
-        secretName: encrypted-secret
+        secretName: app-secret
