@@ -4,7 +4,6 @@ metadata:
   namespace: myapp
   labels:
     run: nginx
-    x: y
   name: nginx
   annotations:
     pippo: pluto
