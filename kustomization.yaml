@@ -2,5 +2,6 @@ resources:
 #- secret.yaml
 - secret3.yaml
 - pod.yaml
+- helm-application.yaml
 transformers:
 - annotator.yaml
